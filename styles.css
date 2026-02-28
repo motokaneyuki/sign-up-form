@@ -7,11 +7,11 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    background-color: black;
+    color: white;
 }
 
 .container {
-    background-color: black;
-    color: white;
     display: flex;
 }
 
@@ -45,6 +45,7 @@ img {
     gap: 60px;
     flex-direction: column;
     justify-content: center;
+    height: 100vh;
 }
 
 .topSection {
