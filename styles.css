@@ -1,5 +1,124 @@
+@font-face {
+    font-family: 'spaceFont';
+    src: url(font/AlienLeagueRegular-9D3Z.woff2) format('woff2');
+}
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
+
+.container {
+    background-color: black;
+    color: white;
+    display: flex;
+}
+
+.leftSidePage {
+    font-size: 50px;
+    font-family: 'spaceFont', sans-serif;
+    position: relative;
+}
+
+.logo {
+    position: absolute;
+    top: 200px;
+    left: 100px;;
+}
+
+.logoTwo {
+    position: absolute;
+    top: 340px;
+    left: 340px;;
+}
+
+img {
+    width: 600px;
+    height: 100vh;
+}
+
+.rightSidePage {
+    font-family: 'Julius Sans One', sans-serif;
+    padding: 100px;
+    display: flex;
+    gap: 60px;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.topSection {
+    font-size: 30px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+span {
+    color: #9AAAB1
+}
+
+.textColor {
+    color: #9AAAB1;  
+}
+
+form {
+    margin-top: 10px;
+}
+
+label {
+    display: block;
+    font-size: small;
+}
+
+input {
+    width: 200px;
+    height: 25px;
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #eee;
+    color: #eee;
+}
+
+input:focus {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #5F8BA2;
+    outline: none;
+}
+
+input:invalid {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid #FF7F7F;
+    outline: none;  
+}
+
+.formRow {
+    display: flex;
+    gap: 50px;
+    padding-top: 10px;
+}
+
+button {
+    width: 140px;
+    height: 40px;
+    border-radius: 10px;
+    background-color: #5F8BA2;
+    color: white;
+    margin-bottom: 10px;
+    font-family: 'Julius Sans One', sans-serif;
+}
+
+.bottomSection p {
+    font-size: smaller;
+}
+
+a {
+    color: #5F8BA2;
+    text-decoration: none;
+}
+
+/* * {
+  outline: 1px solid red;
+} */
