@@ -5,8 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Julius+Sans+One&display=swap" rel="stylesheet">
 </head>
 <body>
-    
+    <div class="container">
+        <div class="leftSidePage">
+            <img src="img/nasa-Yj1M5riCKk4-unsplash.jpg" alt="Astronaut floating in space">
+            <div class="logo">EXPLORE</div>
+            <div class="logoTwo">SPACE</div>
+        </div>
+        <div class="rightSidePage">
+            <div class="topSection">
+                <p>Your seat among the stars awaits.</p>
+                <p>Sign up <em>now</em> to explore beyond.</p>
+            </div>
+            <div class="middleSection">
+                <p>Secure your spot.</p>
+                <form>
+                    <div class="formRow">
+                        <div>
+                            <label for="firstName">FIRST NAME</label>
+                            <input type="text" id="firstName" name="firstName">
+                        </div>
+                        <div>
+                            <label for="lastName">LAST NAME</label>
+                            <input type="text" id="lastName" name="lastName">
+                        </div>
+                    </div>
+                    <div class="formRow">
+                        <div>
+                            <label for="email">EMAIL</label>
+                            <input type="email" id="email" name="email">
+                        </div>
+                        <div>
+                            <label for="phoneNumber">PHONE NUMBER</label>
+                            <input type="tel" id="phoneNumber" name="phoneNumber">
+                        </div>
+                    </div>
+                    <div class="formRow">
+                        <div>
+                            <label for="password">PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                        <div>
+                            <label for="password">CONFIRM PASSWORD</label>
+                            <input type="password" id="password" name="password">
+                        </div>
+                    </div>
+                </form>
+            </div>
+            <div class="bottomSection">
+                <button type="submit">Create Account</button>
+                <p>Already have an account? <a href="">Log in</a></p>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
