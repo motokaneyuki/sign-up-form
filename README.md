@@ -1,6 +1,8 @@
 # sign-up-form
 Live preview can be found <a href="http://motokaneyuki.github.io/sign-up-form">here</a>.
 
+<img src="img/signUpFormPreview.png" alt="Preview of a page with an image of space on the left side and a sign up form on the right side." style="width:80%; height:auto;">
+
 # Purpose
 This is a simple project created to practice building and structuring HTML forms. 
 
